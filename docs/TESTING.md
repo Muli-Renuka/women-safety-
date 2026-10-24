@@ -1,0 +1,2 @@
+# Testing
+Run backend tests from `backend/`: `python manage.py test`. Run `python manage.py check` and `python manage.py migrate`. From `frontend/`, run `npm install` then `npm run build`. Manual browser checks still required: offline mode, refresh persistence, reconnect retry, geolocation denied/unavailable, service worker update, mobile installation, and real-device behavior. Do not interpret API acceptance as a notification delivery receipt.

@@ -1,0 +1,2 @@
+# Offline behavior
+The service worker caches the shell, manifest, icon, and offline fallback. It never caches `/api/` responses. IndexedDB stores SOS events and retry metadata before a network attempt. On app startup, focus, or restored connectivity, pending records are retried. Browser online events are hints; the backend may still be unreachable. Background Sync is not required and arbitrary background execution is not guaranteed. Browser storage can be cleared by the browser and is not encrypted.
